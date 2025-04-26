@@ -12,16 +12,17 @@ export default function Sidebar() {
 
       {/* Contact Card */}
       <div className="flex justify-between gap-3">
+       
         <ProfileButton
-          imagePath="public/icons/github.png"
+          imagePath="/icons/github.png"
           goTo="https://github.com/fauzihub13"
         />
         <ProfileButton
-          imagePath="public/icons/linkedin.png"
+          imagePath="/icons/linkedin.png"
           goTo="https://www.linkedin.com/in/fauziaditra/"
         />
         <ProfileButton
-          imagePath="public/icons/gmail.png"
+          imagePath="/icons/gmail.png"
           goTo="mailto:fauzisaputra.it@gmail.com"
         />
       </div>
@@ -32,7 +33,7 @@ export default function Sidebar() {
       <button className=" rounded-lg mt-3 p-3 gap-2 flex justify-center">
         <p className="text-sm text-stone-400 text-center">Made with React Js</p>
         <img
-          src="public/icons/react.png"
+          src="/icons/react.png"
           loading="lazy"
           alt="Profile"
           height={iconSize}
