@@ -1,6 +1,6 @@
 import SkillCard from "./SkillCard";
 
-export default function Content() {
+export default function HomeContent() {
   const skills = [
     {
       title: "Mobile Development",

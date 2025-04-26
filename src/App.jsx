@@ -1,17 +1,15 @@
 import { StrictMode } from "react";
 import "./App.css";
-import Content from "./components/Content";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./presentation/components/Sidebar";
+import Container from "./presentation/pages/Container";
 
-function App() {
+function App({ children }) {
   return (
     <StrictMode>
-      <div className="mx-auto max-w-7xl py-12 px-6 lg:px-12 bg-red font-poppins">
-        <div className="flex flex-col lg:flex-row gap-5 mx-auto">
-          <Sidebar />
-          <Content />
-        </div>
-      </div>
+      <Container>
+        <Sidebar />
+        {children}
+      </Container>
     </StrictMode>
   );
 }
