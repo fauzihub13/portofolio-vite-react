@@ -4,6 +4,7 @@ export default function ProjectContent() {
   const projects = [
     {
       thumbnail: "DermaScan.png",
+      category: "Mobile Development",
       title: "DermaScan",
       slug: "dermascan",
       description:
@@ -35,6 +36,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "LumbungData.png",
+      category: "Mobile Development",
       title: "Lumbung Data",
       slug: "lumbung-data",
       description:
@@ -54,6 +56,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "EmployMe.png",
+      category: "Mobile Development",
       title: "EmployMe",
       slug: "employme",
       description:
@@ -78,6 +81,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "Sunify.png",
+      category: "Mobile Development",
       title: "Sunify",
       slug: "sunify",
       description:
@@ -109,6 +113,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "OneHomeFarm.png",
+      category: "Mobile Development",
       title: "One Home Farm",
       slug: "one-home-farm",
 
@@ -141,6 +146,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "Harvest.png",
+      category: "Mobile Development",
       title: "Harvest",
       slug: "harvest",
       description:
@@ -160,6 +166,7 @@ export default function ProjectContent() {
 
     {
       thumbnail: "SimPet.png",
+      category: "Mobile Development",
       title: "SimPet",
       slug: "simpet",
       description:

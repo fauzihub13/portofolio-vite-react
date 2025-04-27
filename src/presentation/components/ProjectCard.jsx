@@ -23,6 +23,7 @@ export default function ProjectCard({ project }) {
           />
         </figure>
         <div className="card-body">
+          <h2 className="text-zinc-400">{project.category}</h2>
           <h2 className="card-title">{project.title}</h2>
           <p className="text-zinc-400 mb-2 line-clamp-2">
             {project.description}
@@ -37,7 +38,7 @@ export default function ProjectCard({ project }) {
 
       <dialog id={project.slug} className="modal">
         <div
-          className="modal-box p-4 w-11/12 max-w-2xl"
+          className="modal-box p-6 w-11/12 max-w-2xl"
           style={{
             maxHeight: "calc(100vh - 4rem)",
             overflowY: "auto",
@@ -47,21 +48,28 @@ export default function ProjectCard({ project }) {
             scrollbarWidth: "none",
           }}
         >
-          <figure className="w-full overflow-hidden">
+          <figure className="w-full overflow-hidden mb-4">
             <img
               src={`images/projects/${project.thumbnail}`}
               alt="Shoes"
               className="w-full h-full object-cover rounded-2xl"
             />
           </figure>
+          <h2 className="text-zinc-400 my-2">{project.category}</h2>
 
-          <h3 className="font-bold text-lg mt-4">{project.title}</h3>
+          <h3 className="font-bold text-lg ">{project.title}</h3>
 
           {paragraphs.map((paragraph, index) => (
             <p key={index} className=" py-2 text-justify text-zinc-400 mb-2">
               {paragraph}
             </p>
           ))}
+
+          <div className="flex flex-wrap gap-2 my-4 ">
+            {project.icons.map((icon, index) => (
+              <TechIcon key={index} path={icon.path} label={icon.label} />
+            ))}
+          </div>
         </div>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>
