@@ -1,3 +1,4 @@
+import NavBar from "./NavBar";
 import SkillCard from "./SkillCard";
 
 export default function HomeContent() {
@@ -85,7 +86,7 @@ export default function HomeContent() {
   ];
 
   return (
-    <div className="border border-neutral-100 rounded-2xl lg:w-3/4 p-4">
+    <div className="border border-neutral-100 rounded-2xl w-full p-4">
       <h1 className="text-2xl font-semibold mb-2">
         Hi, I am Fauzi Adi Saputra 🙌
       </h1>

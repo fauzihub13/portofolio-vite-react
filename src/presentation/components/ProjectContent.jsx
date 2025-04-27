@@ -187,7 +187,7 @@ export default function ProjectContent() {
   ];
 
   return (
-    <div className="border border-neutral-100 rounded-2xl lg:w-3/4 p-4">
+    <div className="border border-neutral-100 rounded-2xl p-4">
       <h1 className="text-2xl font-semibold mb-2">PROJECT 🗂️</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4">

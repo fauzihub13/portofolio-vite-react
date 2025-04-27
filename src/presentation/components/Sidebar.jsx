@@ -28,17 +28,7 @@ export default function Sidebar() {
 
       {/* Download CV */}
       <DownloadCV />
-
-      <Link to={"/"}>
-        <h1>Home</h1>
-      </Link>
-      <Link to={"/resume"}>
-        <h1>Resume</h1>
-      </Link>
-      <Link to={"/project"}>
-        <h1>Project</h1>
-      </Link>
-
+      
       {/* <Footer /> */}
       <Stamp />
     </div>

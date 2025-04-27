@@ -1,3 +1,3 @@
 export default function DownloadCV() {
-  return <button className="btn btn-soft font-medium">Curriculum Vitae</button>;
+  return <button className="btn border-base-100 bg-base-200 font-medium">Curriculum Vitae</button>;
 }

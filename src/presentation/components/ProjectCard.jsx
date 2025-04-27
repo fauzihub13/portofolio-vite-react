@@ -37,7 +37,7 @@ export default function ProjectCard({ project }) {
 
       <dialog id={project.slug} className="modal">
         <div
-          className="modal-box p-4 w-full"
+          className="modal-box p-4 w-11/12 max-w-2xl"
           style={{
             maxHeight: "calc(100vh - 4rem)",
             overflowY: "auto",
@@ -47,7 +47,7 @@ export default function ProjectCard({ project }) {
             scrollbarWidth: "none",
           }}
         >
-          <figure className="h-60 lg:h-60 overflow-hidden">
+          <figure className="w-full overflow-hidden">
             <img
               src={`images/projects/${project.thumbnail}`}
               alt="Shoes"
