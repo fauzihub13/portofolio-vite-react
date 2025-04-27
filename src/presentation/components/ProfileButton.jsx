@@ -7,7 +7,7 @@ export default function ProfileButton({ imagePath = "", goTo = "" }) {
 
   return (
     <div
-      className="border border-neutral-100 rounded-lg p-3 w-full"
+      className="border border-neutral-100 rounded-lg p-3 w-full cursor-pointer hover:bg-neutral-100"
       onClick={handleOnClick}
     >
       <img
