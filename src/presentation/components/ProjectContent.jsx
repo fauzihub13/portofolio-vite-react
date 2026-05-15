@@ -3,6 +3,27 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectContent() {
   const projects = [
     {
+      thumbnail: "LiteNet.png",
+      category: "Mobile Development",
+      title: "LiteNet",
+      slug: "litenet",
+      description:"LiteNet Mobile Application is a cross-platform solution developed with Flutter to automate satellite internet quota management. The project applies Clean Architecture principles to ensure scalability, maintainability, and modularity, while Riverpod provides efficient and reactive state management. Network communication is optimized through Dio, enabling reliable REST API integration. The app delivers a seamless experience with responsive and user-friendly interfaces, designed to simplify complex tasks such as quota top-ups, promo code usage, and secure payment flows. \n Beyond its technical foundation, LiteNet emphasizes practicality and innovation by offering features like OTP-based account registration, device monitoring with visual charts, and transaction history tracking. The design prioritizes clarity and usability, ensuring that users can manage satellite internet services effortlessly. Completed within a short timeframe, LiteNet demonstrates both technical execution and user-centered design, making it a strong showcase of modern mobile development.",
+       icons: [
+        {
+          path: "flutter.svg",
+          label: "Flutter",
+        },
+        {
+          path: "riverpod.svg",
+          label: "Riverpod",
+        },
+        {
+          path: "laravel.svg",
+          label: "Laravel",
+        },
+      ],
+    },
+    {
       thumbnail: "DermaScan.png",
       category: "Mobile Development",
       title: "DermaScan",

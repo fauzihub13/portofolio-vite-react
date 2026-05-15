@@ -13,17 +13,35 @@ export default function ResumeContent() {
 
   const experiences = [
     {
+      logo: "experiences/telkomsat.png",
+      company: "PT Telkom Satelit Indonesia",
+      role: "Mobile Developer Internship",
+      period: "Jul 2025 - Dec 2025",
+      details: [
+        "Developing new modules for the Flutter application using Riverpod and Clean Architecture",
+        "Building satellite internet service activation features with optimal user flow",
+        "Implementing device monitoring features to display the status and performance of satellite devices",
+        "Integrating billing features to display user bills and payment history",
+        "Building satellite internet quota top-up features through REST API integration",
+      ],
+    },
+    {
       logo: "experiences/kbi.png",
       company: "PT Kita Bantu Indonesia",
       role: "Mobile Developer Internship",
-      period: "Feb 2025 - present",
-      details: [],
+      period: "Feb 2025 - Jun 2025",
+      details: [
+        "Implementing UI designs into Flutter components based on Figma mockups",
+        "Converting design assets into modular and reusable widgets for job search portal pages",
+        "Collaborating with the design and backend teams to ensure user flow suitability and component consistency",
+        "Debugging and refining the display to ensure responsive UI performance across various devices",
+      ],
     },
     {
       logo: "experiences/hugo_studio.png",
       company: "Hugo Studio",
       role: "Mobile Developer Internship",
-      period: "Feb 2025 - present",
+      period: "Feb 2025 - May 2025",
       details: [
         "Developed Lumbung Data Mobile application using Flutter to digitalize village letter services",
         "Implemented GetX for state management to ensure responsive user flows",
