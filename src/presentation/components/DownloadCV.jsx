@@ -1,5 +1,5 @@
 export default function DownloadCV() {
-  const cvUrl = "/cv/CV_Fauzi_Adi_Saputra_Mobile_EN.pdf";
+  const cvUrl = "/cv/CV_Fauzi_Adi_Saputra_Mobile.pdf";
 
   function handleClick() {
     console.log(cvUrl);
