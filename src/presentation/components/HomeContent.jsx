@@ -91,7 +91,7 @@ export default function HomeContent() {
         Hi, I am Fauzi Adi Saputra 🙌
       </h1>
       <p className="text-justify text-base text-zinc-400">
-        Final year Software Engineering student at IPB University, focusing on
+        Bachelor of Software Engineering IPB University, focusing on
         mobile application development with Flutter. I built an application with
         API integration, Firebase, geolocation, OpenStreetMap, and TFLite
         machine learning. I implemented MVVM and Clean Architecture using BLoC

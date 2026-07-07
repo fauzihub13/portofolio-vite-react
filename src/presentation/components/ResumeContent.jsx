@@ -6,7 +6,7 @@ export default function ResumeContent() {
       logo: "IPB.png",
       company: "IPB University",
       role: "Software Engineering Technology ",
-      period: "2022 - present",
+      period: "2022 - 2026",
       details: [],
     },
   ];
